@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>interface escola</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+  </head>
+  <body>
+    <div id = "pgn">
+
+        <div class = "header">
+            <p class = "txt1" type = "text">Banco de dados</p>
+        </div>
+        <div class = "sqlmongo">
+            <button type="button" id="sqlbt" onclick="sqlbd()">MySQL</button>
+            <button type="button" id="mongobt" onclick="mgbd()">MongoDB</button>
+        </div>
+        <div id = "conteudo1">
+            <div class = "conteudo2">
+                <p class = "titulo" type = "text">Banco de dados - MYSQL</p>
+                <p class = "texto1">Nome do Aluno :
+                    <input type="text" id="nome" name="dados"> ID : <input type="text" id="id_aluno" name="dados">
+                </p>
+                <p class = "texto2" type = "text">Turma do Aluno :
+                    <input type="text" id="turma" name="dados">
+                </p>
+                <p class = "texto3" type = "text">
+                    <button type="button" id="botaoM">Matricular</button>
+                    <button type="button" id="botaoMT">Mudar Nome</button>
+                    <button type="button" id="botaoEX">Excluir Aluno</button>
+                </p>
+                <div id = "resp"></div>
+
+            </div>
+            <div class = "conteudo3">
+                <p id = "result">
+                    Listar Informaçoes
+                </p>
+                <button type="button" id="botaoLM">Listar Matriculas</button>
+                <button type="button" id="botaoLT">Listar Turmas</button>
+                <button type="button" id="botaoLA">Listar Alunos</button>
+                <div id="res">
+                    <ol id="res1">
+                        <li></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div id = "conteudo1_m">
+            <div class = "conteudo2_m">
+                <p class = "titulo_m" type = "text">Banco de dados - MongoDB</p>
+                <p class = "texto1">Nome do Aluno :
+                    <input type="text" id="nome_m" name="dados"> ID :  <input type="text" id="id_aluno_m" name="dados">
+                </p>
+               
+                <p class = "texto3_m" type = "text">
+                    <button type="button" id="botaoM_m">Matricular</button>
+                    <button type="button" id="botaoMT_m">Mudar Nome</button>
+                    <button type="button" id="botaoEX_m">Excluir Aluno</button>
+                </p>
+                <div id = "resp_m"></div>
+
+            </div>
+            <div class = "conteudo3_m">
+                <p id = "result_m">
+                    Listar Informaçoes
+                </p>
+                
+                <button type="button" id="botaoLA_m">Listar Alunos</button>
+                <div id="res_m">
+                    <ol id="res1_m">
+                        <li></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class = "footer">
+            <div class = "txt2">Escola - 2022</div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="codigo.js"></script>
+
+  </body>

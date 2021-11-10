@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "path": "../Back-End"
+    },
+    {
+      "path": "."
+    },
+    {
+      "path": "../../Downloads/backend_mongodb"
+    },
+    {
+      "path": "../../Downloads/seila"
+    },
+    {
+      "path": "../LolDex"
+    },
+    {
+      "path": "../slideshow"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Escola-BD"
+  }
+}
